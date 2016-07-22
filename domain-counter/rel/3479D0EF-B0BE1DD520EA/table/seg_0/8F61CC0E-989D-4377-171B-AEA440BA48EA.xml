@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F61CC0E-989D-4377-171B-AEA440BA48EA" name="DOMAIN">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:04:21 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="42385F83-8632-BE5C-6DBC-CE7F6F01B023">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:11:42 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="DD5E81C5-7530-96FC-52EE-0BDAA1904C9B">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:11:42 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D2157C8-6AA8-4D99-0625-2FEB5F2842F9" name="DOMAIN_PK">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:11:42 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42385F83-8632-BE5C-6DBC-CE7F6F01B023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2194028D-F9EE-8AFF-C58C-4DF76183B707" name="DOMAIN_NAME__UN">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-17 18:39:01 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5E81C5-7530-96FC-52EE-0BDAA1904C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

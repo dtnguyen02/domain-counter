@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="588CC330-9AF0-4A4C-2561-6E9917BA255A" name="URL">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:06:02 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D63F8B40-257F-194D-D8A2-FAC19861D716">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:28:06 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMAIN_ID" id="19D2E862-C446-B431-1D61-CA91A760E938">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:43:38 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0D151B1-BDFF-8A0B-62E5-11E984D93334" referredColumn="42385F83-8632-BE5C-6DBC-CE7F6F01B023"/>
+</associations>
+</Column>
+<Column name="URL" id="885E7611-A2FB-0C57-AF5A-A5A626F7E621">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:28:06 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="961175F6-6895-45EC-18D8-CC1918A8EB38" name="URL_PK">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:28:06 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D63F8B40-257F-194D-D8A2-FAC19861D716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B102D524-0E00-15C4-6A16-E6F3463B549B" name="URL_DOMAIN_ID_FK">
+<createdBy>C_KATHYN</createdBy>
+<createdTime>2016-06-16 23:41:30 UTC</createdTime>
+<ownerDesignName>domain-counter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D2E862-C446-B431-1D61-CA91A760E938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

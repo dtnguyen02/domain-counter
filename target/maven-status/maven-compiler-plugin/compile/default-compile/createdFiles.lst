@@ -1,0 +1,13 @@
+org\preassignment\servlet3\MyWebInitializer.class
+org\preassignment\dao\DomainDao.class
+org\preassignment\dao\DomainDaoImpl.class
+org\preassignment\model\Domain.class
+org\preassignment\model\Url.class
+org\preassignment\config\SpringRootConfig.class
+org\preassignment\dao\DomainDaoImpl$1.class
+org\preassignment\web\controller\StringRecursiveReversal.class
+org\preassignment\web\controller\DomainController.class
+org\preassignment\config\db\HsqlDataSource.class
+org\preassignment\dao\DomainDaoImpl$DomainCountMapper.class
+org\preassignment\dao\DomainDaoImpl$DomainMapper.class
+org\preassignment\config\SpringWebConfig.class

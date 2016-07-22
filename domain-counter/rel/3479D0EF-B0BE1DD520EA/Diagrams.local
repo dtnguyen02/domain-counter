@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="42D722F3-6AE1-46C4-E76D-AE4BE8648D7B" name="domain-counter" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
